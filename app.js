@@ -1,5 +1,5 @@
-// var pinNum = 135; for Artik 5
-var pinNum = 22; // for Artik 10
+var pinNum = 135; // for Artik 5
+// var pinNum = 22; // for Artik 10
 
 var led = require("pi-pins").connect(pinNum);
 
